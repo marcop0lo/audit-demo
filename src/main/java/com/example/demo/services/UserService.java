@@ -1,9 +1,9 @@
-package services;
+package com.example.demo.services;
 
-import exceptions.UserNotFoundException;
-import models.User;
+import com.example.demo.exceptions.UserNotFoundException;
+import com.example.demo.models.User;
 import org.springframework.stereotype.Service;
-import repositories.UserRepository;
+import com.example.demo.repositories.UserRepository;
 
 import java.util.List;
 import java.util.UUID;

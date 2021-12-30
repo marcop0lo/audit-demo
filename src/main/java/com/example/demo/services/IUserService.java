@@ -1,6 +1,6 @@
-package services;
+package com.example.demo.services;
 
-import models.User;
+import com.example.demo.models.User;
 
 import java.util.List;
 import java.util.UUID;

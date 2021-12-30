@@ -1,9 +1,9 @@
-package controllers;
+package com.example.demo.controllers;
 
 import lombok.AllArgsConstructor;
-import models.User;
+import com.example.demo.models.User;
 import org.springframework.web.bind.annotation.*;
-import services.IUserService;
+import com.example.demo.services.IUserService;
 
 import java.util.List;
 import java.util.UUID;
